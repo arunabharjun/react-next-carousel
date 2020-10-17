@@ -1,0 +1,24 @@
+{
+	"images": [
+		{
+			"url": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+			"heading": "Motivation is what gets you started. Habit is what keeps you going.",
+			"about": "There is no alternate to the health and fitness, we have to eat healthy food timely, do physical exercises daily, think positive and have patience and commitment towards good lifestyle. Being involved in physical activities on daily basis does something great to our body and mind."
+        },
+        {
+			"url": "https://images.unsplash.com/photo-1602872030276-17d4d67bb130?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+			"heading": "Great design answers a question, offers a solution and solves a problem.",
+			"about": "Interior design is the art and science of enhancing the interior of a building to achieve a healthier and more aesthetically pleasing environment for the people using the space. An interior designer is someone who plans, researches, coordinates, and manages such enhancement projects."
+        },
+        {
+			"url": "https://images.unsplash.com/photo-1602836948295-14b195efa63d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80",
+			"heading": "Live with no excuses and travel with no regrets.",
+			"about": "Someone travels to gain knowledge and experience, someone travels for pleasure, someone travels for business purposes etc. It has much educative value. It is a part of education. Our education and book knowledge remain imperfect without travelling. We can learn many things from travelling."
+        },
+        {
+			"url": "https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+			"heading": "Tis an ill cook that cannot lick his own fingers.",
+			"about": "But it is only human beings who endeavour to transform food into something more. Several archaeologists and evolutionary biologists contend that cooking was, and still is, crucial to our evolution. Not only did it stimulate mastery over fire and necessitated innovation in tool making, but by eating cooked food, we were able to increase our energy output for other creative pursuits."
+        }
+	]
+}

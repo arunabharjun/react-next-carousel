@@ -1,9 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
+// Theme variables
+* {
+	--bg: #fafafa;
+	--clr: #111111;
+	--clr-muted: #504f4f;
+	--clr-muted-max: #8a8a8a;
+	--blue: #0058bd;
+	--lite-blue: #0087bd;
+	--red: rgb(248, 36, 64);
+	--icon-fill: #e2e2e2;
+	--nav-bg: #fff;
+	--nav-shadow: 0 0px 5px 3px rgba(0, 0, 0, 0.08);
+	--card-shadow: 0 5px 10px 3px rgba(0, 0, 0, 0.04);
+	--navHeight: 56px;
+	--hr-clr: rgba(0, 0, 0, 0.1);
+	--transition-duration: all 0.3s ease;
+}
+
+// utilities
+.accent-clr {
+	color: var(--blue);
+}
+
+// class definations
 html,
 body {
 	padding: 0;
 	margin: 0;
+	overflow-x: hidden;
+	background-color: var(--bg) !important;
 }
 
 a {
@@ -16,4 +42,98 @@ a {
 		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
 		sans-serif;
 	box-sizing: border-box;
+	color: var(--clr);
+	hr {
+		border: solid 0.1px var(--hr-clr);
+	}
+}
+
+footer {
+	margin: 20px 0;
+	font-size: 12px;
+	color: var(--clr-muted-max);
+	font-weight: 800;
+	text-align: center;
+	a {
+		color: var(--blue);
+	}
+	p {
+		color: var(--clr-muted-max);
+	}
+}
+
+.nav-bar {
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+
+	.nav-body {
+		padding: 0 15px;
+		background-color: var(--nav-bg);
+		width: 100%;
+		box-shadow: var(--nav-shadow);
+		height: var(--navHeight);
+		display: flex;
+		justify-content: space-between;
+		.brand-name {
+			font-weight: 600;
+			font-size: 115%;
+			color: var(--clr-muted);
+			position: relative;
+			top: -2px;
+		}
+		a {
+			position: relative;
+      top: 20px;
+      right: 4px;
+			svg {
+				fill: var(--icon-fill);
+			}
+		}
+	}
+}
+
+// small devices
+@media only screen and (max-width: 775px) {
+	.phone-hide {
+		display: none;
+	}
+
+	main {
+		padding: 0 0 var(--navHeight) 0;
+	}
+
+	.nav-bar {
+		bottom: 0;
+		left: 0;
+	}
+}
+
+// even smaller divices
+@media only screen and (max-width: 360px) {
+	.phone-small-hide {
+		display: none !important;
+	}
+}
+
+// only desktop
+@media only screen and (min-width: 775px) {
+	.phone-view {
+		display: none !important;
+	}
+
+	* {
+		button:hover {
+			transform: scale(1.1);
+		}
+	}
+
+	main {
+		padding: var(--navHeight) 0 0 0;
+	}
+
+	.nav-bar {
+		top: 0;
+		left: 0;
+	}
 }
