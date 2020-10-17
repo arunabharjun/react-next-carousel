@@ -1,6 +1,6 @@
 # Carousel app with infinite scrolling using Next.js
-<!-- ## [APP LINK](https://articles-app.arunabharjun.vercel.app/)
-![](https://arunabharjun.com/api/project/photo/articles-app) -->
+## [APP LINK](https://carousel-app.arunabharjun.vercel.app/)
+<!-- ![](https://arunabharjun.com/api/project/photo/articles-app) -->
 
 ## ▶️ Getting Started
 
