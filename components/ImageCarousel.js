@@ -1,6 +1,10 @@
 import ImageCard from './ImageCard';
 
 const ImageCarousel = ({ images = [] }) => {
+	/**
+	 * Passing the image data to
+	 * ImageCard component
+	 */
 	const renderCards = () => {
 		return (
 			<React.Fragment>
@@ -19,6 +23,9 @@ const ImageCarousel = ({ images = [] }) => {
 		);
 	};
 
+	/**
+	 * Rendering the carousel component
+	 */
 	return <React.Fragment>{renderCards()}</React.Fragment>;
 };
 

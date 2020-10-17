@@ -2,7 +2,6 @@ const Footer = () => {
 	return (
 		<React.Fragment>
 			<footer>
-				<hr />
 				<p className=''>
 					Developed by
 					<a href='https://arunabharjun.com' target='_blank'>
