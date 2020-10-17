@@ -1,19 +1,19 @@
 import { getImageData } from '../helpers/api';
 import { withRouter } from 'next/router';
-import HomePage from '../components/HomePage';
+import ImageCarousel from '../components/ImageCarousel';
 import Layout from '../components/core/Layout';
 
 const Index = ({ imageData }) => {
-	const showHomePage = () => {
+	const showImageCarousel = () => {
 		return (
 			<React.Fragment>
 				<Layout>
-					<HomePage images={imageData} />
+					<ImageCarousel images={imageData} />
 				</Layout>
 			</React.Fragment>
 		);
 	};
-	return <React.Fragment>{showHomePage()}</React.Fragment>;
+	return <React.Fragment>{showImageCarousel()}</React.Fragment>;
 };
 
 Index.getInitialProps = () => {
